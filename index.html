@@ -443,9 +443,6 @@ https://templatemo.com/tm-548-training-studio
                                                 class="btn btn-primary">Submit</button>
                                         </fieldset>
                                     </div>
-                                    <div class="col-md-12 col-sm-12">
-                                        <span class="thank_you" style="display:none;">Thank You For Submiting Form</span>
-                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -616,7 +613,7 @@ https://templatemo.com/tm-548-training-studio
         type: 'post',
         data: $("#contact").serializeArray(),
         success: function () {
-         showAlert('success', 'Form submitted successfully!');
+         alert("Form Data Submitted");
         },
         error: function () {
           alert("There was an error");
