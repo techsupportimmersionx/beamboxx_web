@@ -611,12 +611,18 @@ https://templatemo.com/tm-548-training-studio
     $('#contact').submit(function (event) {
 
 
-        event.preventDefault(); // Prevent default form submission
-
-        // Perform any necessary form validation here
-
-        // Show success alert
-        showAlert('success', 'Form submitted successfully!');
+       $.ajax({
+        url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
+        type: 'post',
+        data: $("#contact").serializeArray(),
+        success: function () {
+         showAlert('success', 'Form submitted successfully!');
+        },
+        error: function () {
+          alert("There was an error :(")
+        }
+      });
+        
       });
   function showAlert(type, message) {
         // Create the alert element
