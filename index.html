@@ -449,7 +449,7 @@ https://templatemo.com/tm-548-training-studio
 
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <button type="submit" id="form-submit" onclick="SubForm()"
+                                            <button type="submit" id="form-submit"
                                                 class="btn btn-primary">Submit</button>
                                         </fieldset>
                                     </div>
@@ -618,40 +618,40 @@ https://templatemo.com/tm-548-training-studio
 
             });
             
-    // $('#contact').submit(function (event) {
+    $('#contact').submit(function (event) {
 
 
-    //    $.ajax({
-    //     url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
-    //     type: 'post',
-    //     data: $("#contact").serializeArray(),
-    //     success: function () {
-    //      showAlert('success', 'Form submitted successfully!');
-    //     },
-    //     error: function () {
-    //       alert("There was an error");
-    //     }
-    //   });
+       $.ajax({
+        url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
+        type: 'post',
+        data: $("#contact").serializeArray(),
+        success: function () {
+         showAlert('success', 'Form submitted successfully!');
+        },
+        error: function () {
+          alert("There was an error");
+        }
+      });
         
-    //   });
+      });
 
         });
     </script>
 
   <script>
-    function SubForm() {
-      $.ajax({
-        url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
-        type: 'post',
-        data: $("#myForm").serializeArray(),
-        success: function () {
-          alert("Form Data Submitted :)")
-        },
-        error: function () {
-          alert("There was an error :(")
-        }
-      });
-    }
+    // function SubForm() {
+    //   $.ajax({
+    //     url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
+    //     type: 'post',
+    //     data: $("#myForm").serializeArray(),
+    //     success: function () {
+    //       alert("Form Data Submitted :)")
+    //     },
+    //     error: function () {
+    //       alert("There was an error :(")
+    //     }
+    //   });
+    // }
       function showAlert(type, message) {
         // Create the alert element
         var alert = $('<div class="alert alert-' + type + ' alert-dismissible fade show" role="alert">' +
