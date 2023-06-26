@@ -333,7 +333,7 @@ https://templatemo.com/tm-548-training-studio
                             <h1>Contact us</h1>
                             <p>Please fill out the contact information below and our representative will follow up with
                                 you.</p>
-                            <form id="contact" action="" method="post">
+                            <form id="contact">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <fieldset>
@@ -510,8 +510,8 @@ https://templatemo.com/tm-548-training-studio
                     scrollTop: $('#contact-us').offset().top
                 }, 500);
             });
-
-                $('#contact').submit(function (event) {
+            
+    $('#contact').submit(function (event) {
 
 
        $.ajax({
@@ -519,6 +519,7 @@ https://templatemo.com/tm-548-training-studio
         type: 'post',
         data: $("#contact").serializeArray(),
         success: function () {
+         // alert("Form submitted successfully!");
          showAlert('success', 'Form submitted successfully!');
         },
         error: function () {
@@ -527,6 +528,7 @@ https://templatemo.com/tm-548-training-studio
       });
         
       });
+
         });
     </script>
 </body>
