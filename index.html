@@ -626,8 +626,8 @@ https://templatemo.com/tm-548-training-studio
         type: 'post',
         data: $("#contact").serializeArray(),
         success: function () {
-          alert("Form submitted successfully!");
-         //showAlert('success', 'Form submitted successfully!');
+         // alert("Form submitted successfully!");
+         showAlert('success', 'Form submitted successfully!');
         },
         error: function () {
           alert("There was an error");
@@ -653,18 +653,18 @@ https://templatemo.com/tm-548-training-studio
     //     }
     //   });
     // }
-    //   function showAlert(type, message) {
-    //     // Create the alert element
-    //     var alert = $('<div class="alert alert-' + type + ' alert-dismissible fade show" role="alert">' +
-    //       message +
-    //       '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
-    //       '<span aria-hidden="true">&times;</span>' +
-    //       '</button>' +
-    //       '</div>');
+      function showAlert(type, message) {
+        // Create the alert element
+        var alert = $('<div class="alert alert-' + type + ' alert-dismissible fade show" role="alert">' +
+          message +
+          '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
+          '<span aria-hidden="true">&times;</span>' +
+          '</button>' +
+          '</div>');
 
-    //     // Append the alert after the submit button
-    //     $('.btn-primary').after(alert);
-    //   }
+        // Append the alert after the submit button
+        $('.btn-primary').after(alert);
+      }
   </script>
 
 </body>
