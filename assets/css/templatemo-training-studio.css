@@ -2221,7 +2221,7 @@ responsive
 
 .section_p p {
   margin-top: -30%;
-  width: 818px;
+  width: 720px;
   line-height: 39px;
   text-align: left;
   font-size: 28px;
@@ -2286,6 +2286,7 @@ responsive
   font-family: opensans;
   font-size: 20px;
   margin-left: 50%;
+  margin-top: -2%;
 
 }
 
