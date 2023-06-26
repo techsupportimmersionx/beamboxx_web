@@ -513,19 +513,18 @@ https://templatemo.com/tm-548-training-studio
             
     $('#contact').submit(function (event) {
 
-
-       $.ajax({
-        url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
-        type: 'post',
-        data: $("#contact").serializeArray(),
-        success: function () {
-         // alert("Form submitted successfully!");
-         showAlert('success', 'Form submitted successfully!');
-        },
-        error: function () {
-          alert("There was an error");
-        }
-      });
+           $.ajax({
+            url: 'https://api.apispreadsheets.com/data/AHx919oTsyoot1Jh/',
+            type: 'post',
+            data: $("#contact").serializeArray(),
+            success: function () {
+             // alert("Form submitted successfully!");
+             showAlert('success', 'Form submitted successfully!');
+            },
+            error: function () {
+              alert("There was an error");
+            }
+          });
         
       });
 

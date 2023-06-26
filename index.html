@@ -229,9 +229,7 @@ https://templatemo.com/tm-548-training-studio
     </section>
     <!-- ***** Built-In Motion Sensor End ***** -->
     <section class="section test moresection" id="our-classes2">
-        <div class="more">
-            more
-        </div>
+        <img class="more" src="assets/images/More-Arrow.png" width="50px;">
 
 
         <div class="content">
@@ -610,10 +608,9 @@ https://templatemo.com/tm-548-training-studio
                 $content.slideToggle(500, function () {
                     //execute this after slideToggle is done
                     //change text of header based on visibility of content div
-                    $header.text(function () {
-                        //change text based on condition
-                        return $content.is(":visible") ? "collapse" : "more";
-                    });
+                $header.attr("src", function () {
+                        return $content.is(":visible") ? "assets/images/Down-Arrow.png" : "assets/images/More-Arrow.png";
+                     });
                 });
 
             });
