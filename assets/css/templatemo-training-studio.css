@@ -2298,6 +2298,11 @@ responsive
   display: none;
 }
 
+.thank_you{
+  font-family: opensans;
+  margin-top: 5px;
+}
+
 /* more section end */
 /****************** kishan's media queries for 1366 X 768 *******************/
 
