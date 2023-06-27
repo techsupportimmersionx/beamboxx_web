@@ -514,12 +514,11 @@ https://templatemo.com/tm-548-training-studio
             
     $('#contact').submit(function (event) {
 
-        var dateTime = getCurrentDate();
 
        $.ajax({
         url: 'https://api.apispreadsheets.com/data/QllXAMKAyaotZPAw/',
         type: 'post',
-        data: $("#contact").serializeArray() + 'date='+ dateTime,
+        data: $("#contact").serializeArray(),
         success: function () {
          // alert("Form submitted successfully!");
          showAlert('success', 'Form submitted successfully!');
@@ -532,15 +531,6 @@ https://templatemo.com/tm-548-training-studio
       });
 
         });
-    </script>
-    <script type="text/javascript">
-         function getCurrentDate() {
-            var currentDate = new Date();
-            var year = currentDate.getFullYear();
-            var month = ('0' + (currentDate.getMonth() + 1)).slice(-2);
-            var day = ('0' + currentDate.getDate()).slice(-2);
-            return year + '-' + month + '-' + day;
-        }
     </script>
 </body>
 
