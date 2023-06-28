@@ -2205,7 +2205,7 @@ responsive
   /* margin-left: 42px; */
   font-family: opensans;
   margin-bottom: 10px;
-
+  width: 95%;
 }
 
 .aboutus span {
@@ -2562,6 +2562,7 @@ responsive
     font-size: 13px;
 
     line-height: 24px;
+    width: 100%;
   }
 
   /***************************--6TH FOOTER SECTION END--*************************** */
@@ -4026,6 +4027,7 @@ margin-top: -31.2%!important;
   .aboutus p {
     font-size: 13px;
     line-height: 20px;
+    width: 100%;
   }
 
   .aboutus span {
