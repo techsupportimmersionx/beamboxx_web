@@ -481,7 +481,7 @@ header
 */
 
 .background-header {
-  background: rgba(250, 250, 250, 0.99) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
   height: 80px !important;
   /* position: fixed !important; */
   top: 0px;
@@ -492,7 +492,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #232d39 !important;
+  color: #fff !important;
 }
 
 .background-header .main-nav .nav li:last-child a {
@@ -512,7 +512,7 @@ header
 }
 
 .header-area {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
