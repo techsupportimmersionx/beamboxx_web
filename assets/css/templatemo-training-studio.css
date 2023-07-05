@@ -2308,7 +2308,7 @@ responsive
     display: none;
 }
 
-.container.plug_and_play_bg_image {
+.section .plugplay {
     position: relative;
 }
 
