@@ -487,6 +487,7 @@ https://templatemo.com/tm-548-training-studio
 
                     </div>
                 </div>
+                <img class="down-arrow" src="assets/images/Down-Arrow.png" width="50px;">
             </section>
         </div>
     </section>
@@ -798,21 +799,55 @@ https://templatemo.com/tm-548-training-studio
                     scrollTop: $('#contact-us').offset().top
                 }, 500);
             });
-            $(".more").click(function () {
+            var $moreArrow = $(".more");
+            var $downArrow = $(".down-arrow");
+            var $content = $(".content");
 
-                $header = $(this);
-                //getting the next element
-                $content = $header.next();
-                //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+            $moreArrow.click(function () {
+                var $header = $(this);
+                var $content = $header.next();
+
                 $content.slideToggle(500, function () {
-                    //execute this after slideToggle is done
-                    //change text of header based on visibility of content div
                     $header.attr("src", function () {
                         return $content.is(":visible") ? "assets/images/Down-Arrow.png" : "assets/images/More-Arrow.png";
                     });
-                });
 
+                    // Check if all three divs are expanded
+                    if (
+                        $(".container.easy_to_relocate_bg_image").is(":visible") &&
+                        $(".container.sturdy_build_bg_image").is(":visible") &&
+                        $(".container.plug_and_play_bg_image").is(":visible")
+                    ) {
+                        $downArrow.show();
+                        $moreArrow.hide();
+                    } else {
+                        $downArrow.hide();
+                        $moreArrow.show();
+                    }
+                });
             });
+
+            $downArrow.click(function () {
+                $content.slideUp(500, function () {
+                    $moreArrow.attr("src", "assets/images/More-Arrow.png");
+                    $downArrow.hide();
+                    $moreArrow.show();
+                });
+            });
+            // Check if all three divs are already expanded on page load
+            if (
+                $(".container.easy_to_relocate_bg_image").is(":visible") &&
+                $(".container.sturdy_build_bg_image").is(":visible") &&
+                $(".container.plug_and_play_bg_image").is(":visible")
+            ) {
+                $downArrow.show();
+                $moreArrow.hide();
+            } else {
+                $downArrow.hide();
+                $moreArrow.show();
+            }
+             // -------------- more section end-------------------
+
 
             $('#contact').submit(function (event) {
 
