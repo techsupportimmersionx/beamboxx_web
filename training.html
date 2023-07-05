@@ -253,7 +253,7 @@ https://templatemo.com/tm-548-training-studio
                 </div>
                 <div class="row below">
                     <div class="col-md-6">
-                        <a href="business.html">
+                        <a href="live-hologram-teleportation.html">
                             <figure class="effect-sadie newimage firstImg testImg image-container">
                                 <img src="assets/images/business_presentations.png" alt="img02" />
                                 <figcaption>
@@ -349,8 +349,8 @@ https://templatemo.com/tm-548-training-studio
                                     </div>
                                     <div class="col-md-6 col-sm-12">
                                         <fieldset>
-                                            <input name="mobile" type="number" minlength="10" maxlength="10" id="number" placeholder="Phone Number"
-                                                required="">
+                                            <input name="mobile" type="number" minlength="10" maxlength="10" id="number"
+                                                placeholder="Phone Number" required="">
                                         </fieldset>
                                     </div>
                                     <div class="col-md-6 col-sm-12">
@@ -365,7 +365,7 @@ https://templatemo.com/tm-548-training-studio
                                         </fieldset>
                                     </div>
 
-                                   <input name="date" id="datePicker" type="hidden" />
+                                    <input name="date" id="datePicker" type="hidden" />
                                     <div class="col-lg-12" style="margin-bottom: 5px;">
                                         <fieldset>
                                             <button type="submit" id="form-submit"
@@ -373,7 +373,8 @@ https://templatemo.com/tm-548-training-studio
                                         </fieldset>
                                     </div>
                                     <div class="col-md-12 col-sm-12">
-                                        <span class="thank_you"><a href="mailto:myron@immersionx.io">Write to us: myron@immersionx.io</a></span>
+                                        <span class="thank_you"><a href="mailto:myron@immersionx.io">Write to us:
+                                                myron@immersionx.io</a></span>
                                     </div>
                                 </div>
                             </form>
@@ -514,31 +515,31 @@ https://templatemo.com/tm-548-training-studio
                     scrollTop: $('#contact-us').offset().top
                 }, 500);
             });
-            
-    $('#contact').submit(function (event) {
 
-           $.ajax({
-            url: 'https://api.apispreadsheets.com/data/QllXAMKAyaotZPAw/',
-            type: 'post',
-            data: $("#contact").serializeArray(),
-            success: function () {
-             // alert("Form submitted successfully!");
-             showAlert('success', 'Form submitted successfully!');
-            },
-            error: function () {
-              alert("There was an error");
-            }
-          });
-        
-      });
-        var now = new Date();
+            $('#contact').submit(function (event) {
 
-        var day = ("0" + now.getDate()).slice(-2);
-        var month = ("0" + (now.getMonth() + 1)).slice(-2);
+                $.ajax({
+                    url: 'https://api.apispreadsheets.com/data/QllXAMKAyaotZPAw/',
+                    type: 'post',
+                    data: $("#contact").serializeArray(),
+                    success: function () {
+                        // alert("Form submitted successfully!");
+                        showAlert('success', 'Form submitted successfully!');
+                    },
+                    error: function () {
+                        alert("There was an error");
+                    }
+                });
 
-        var today = (day)+"-"+(month)+"-"+now.getFullYear();
+            });
+            var now = new Date();
 
-        $('#datePicker').val(today);
+            var day = ("0" + now.getDate()).slice(-2);
+            var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+            var today = (day) + "-" + (month) + "-" + now.getFullYear();
+
+            $('#datePicker').val(today);
         });
     </script>
 </body>
