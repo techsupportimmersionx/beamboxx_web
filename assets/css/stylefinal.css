@@ -2391,6 +2391,7 @@ banner
     }
 
     .holgraphic_text_content h2 {
+        font-family: opensans;
         font-size: 30px;
         order: 1;
     }
