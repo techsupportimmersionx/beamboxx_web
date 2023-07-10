@@ -630,7 +630,7 @@ banner
 
     padding-top: 30px;
     font-size: 60px;
-    font-family: FranklinGothicDemi;
+    font-family: opensans;
     font-weight: 800;
     color: #000000;
 
@@ -660,6 +660,7 @@ banner
     cursor: pointer;
     border-radius: 5px;
     z-index: 1;
+    color: #000000 !important;
 }
 
 .reveal {
