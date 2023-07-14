@@ -1349,6 +1349,14 @@ banner
         padding-top: 86px;
     }
 
+    .sociallinks {
+        padding-top: 20px;
+    }    
+
+    .sociallinks span{
+        padding-right: 5px;
+    }
+
     .footerlinks a:hover {
         color: #ed563b !important;
     }
