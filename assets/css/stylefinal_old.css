@@ -633,7 +633,7 @@ banner
     font-family: opensans;
     font-weight: 800;
     color: #000000;
-    padding-left: 93px;
+
 }
 
 .holoporting_pages p {
@@ -641,13 +641,10 @@ banner
     font-family: opensans;
     color: #000000;
     line-height: 38px;
-    padding-left: 93px;
 }
 
 .holoporting_pages_second_image {
     padding-bottom: 50px;
-    padding-left: 6%;
-    padding-right: 6%;
 }
 
 #scrollButton {
@@ -792,7 +789,7 @@ banner
 
     .icon_with_text img {
         width: 200px;
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
     .touch_interactive_main_class {
@@ -909,7 +906,6 @@ banner
     }
 
     .icon_and_text {
-        width: 0%;
         font-family: opensans;
         font-size: 80px;
         font-weight: bold;
@@ -921,11 +917,10 @@ banner
 
     .icon_and_text img {
         width: 138px;
-        margin-right: 30px;
+        margin-right: 41px;
     }
 
     .relocate_icon_and_text {
-        width: inherit;
         font-size: 80px;
         font-weight: bold;
         margin-top: 230px;
@@ -937,7 +932,7 @@ banner
 
     .relocate_icon_and_text img {
         width: 138px;
-        margin-right: 30px;
+        margin-right: 41px;
     }
 
     .plug_play_icon_and_text {
@@ -952,7 +947,7 @@ banner
 
     .plug_play_icon_and_text img {
         width: 138px;
-        margin-right: 30px;
+        margin-right: 41px;
     }
 
     .sensor-main-content {
@@ -1035,7 +1030,6 @@ banner
     }
 
     .sensor_icon_with_text {
-        width: 88%;
         font-size: 80px;
         font-weight: bold;
         margin-top: 170px;
@@ -1047,11 +1041,10 @@ banner
 
     .sensor_icon_with_text img {
         width: 200px;
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
     .sturdy_build_icon_with_text {
-        width: inherit;
         font-size: 80px;
         font-weight: bold;
         margin-top: 170px;
@@ -1063,7 +1056,7 @@ banner
 
     .sturdy_build_icon_with_text img {
         width: 120px;
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
 
@@ -1073,7 +1066,7 @@ banner
     }
 
     .rowwidth h1 {
-        font-size: 80px;
+        font-size: 70px;
         font-family: FranklinGothicDemi;
         font-weight: 400;
         color: #000000;
@@ -1358,9 +1351,9 @@ banner
 
     .sociallinks {
         padding-top: 20px;
-    }
+    }    
 
-    .sociallinks span {
+    .sociallinks span{
         padding-right: 5px;
     }
 
@@ -1500,20 +1493,6 @@ banner
 }
 
 @media (max-width: 950px) {
-    .holoporting_pages_second_image {
-        padding-bottom: 50px;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
-    .holoporting_pages p {
-        padding-left: 0px;
-    }
-
-    .holoporting_pages h2 {
-        padding-left: 0px;
-    }
-
     .container.bg_image_container .start_beaming_text {
         font-size: 40px;
         padding-left: 50px;
@@ -1930,12 +1909,10 @@ banner
 
     .holoporting_pages h2 {
         font-size: 42px;
-        padding-left: 10px;
     }
 
     .holoporting_pages p {
         font-size: 22px;
-        padding-left: 10px;
     }
 
 
@@ -2395,11 +2372,6 @@ banner
 
 
 @media (max-width: 425px) {
-    .holoporting_pages_second_image {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
     .holoporting_pages h2 {
         font-size: 25px;
     }
