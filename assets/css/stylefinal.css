@@ -655,10 +655,10 @@ banner
 #scrollButton {
     position: fixed;
     font-family: opensans;
-    font-size: 18px;
-    bottom: 41%;
-    right: 100px;
-    padding: 10px 20px;
+    font-size: 16px;
+    bottom: 33px;
+    right: 30px;
+    padding: 8px 10px;
     background-color: #f8c006;
     font-weight: bold;
     border: none;
@@ -753,14 +753,15 @@ banner
 
     .holgraphic_text_content h2 {
         font-size: 60px;
-        font-family: FranklinGothicDemi;
+        /* font-family: FranklinGothicDemi; */
+        font-family: Opensans;
         font-weight: 800;
         color: #ffffff;
         letter-spacing: 0.5px;
         margin-top: 0;
         padding-left: 0;
         width: 80%;
-        line-height: 65px;
+        line-height: 70px;
     }
 
     .holgraphic_text_content p {
@@ -1104,7 +1105,7 @@ banner
         font-size: 25px;
         line-height: 36px;
         color: #000000;
-        width: 70%;
+        width: 93%;
         margin: 10px 0;
     }
 
@@ -1509,6 +1510,13 @@ banner
 
     .footerlinks {
         padding-top: 0px;
+    }
+
+    #scrollButton {
+        font-size: 15px;
+        bottom: 24px;
+        padding: 8px 10px;
+        right: 25px;
     }
 
 }
