@@ -181,7 +181,7 @@ max-width: 100%;
     font-weight: 800;
     text-transform: uppercase;
     float: left;
-    padding-left: 100px;
+    padding-left: 110px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -197,7 +197,7 @@ max-width: 100%;
 .header-area .main-nav .nav {
     float: right;
     margin-top: 27px;
-    margin-right: 0px;
+    margin-right: 67px;
     background-color: transparent;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -633,7 +633,7 @@ banner
     font-family: opensans;
     font-weight: 800;
     color: #000000;
-    padding-left: 93px;
+    padding-left: 100px;
 }
 
 .holoporting_pages p {
@@ -641,13 +641,15 @@ banner
     font-family: opensans;
     color: #000000;
     line-height: 38px;
-    padding-left: 93px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 90%;
 }
 
 .holoporting_pages_second_image {
-    padding-bottom: 50px;
     padding-left: 6%;
     padding-right: 6%;
+    padding-bottom: 100px;
 }
 
 #scrollButton {
@@ -655,7 +657,7 @@ banner
     font-family: opensans;
     font-size: 18px;
     bottom: 41%;
-    right: 20px;
+    right: 100px;
     padding: 10px 20px;
     background-color: #f8c006;
     font-weight: bold;
@@ -728,6 +730,10 @@ banner
 
     }
 
+    .holoporting_pages {
+        padding-top: 70px;
+    }
+
     .holgraphic_main_class {
         display: flex;
         align-items: flex-start;
@@ -746,17 +752,19 @@ banner
     }
 
     .holgraphic_text_content h2 {
-        font-size: 80px;
+        font-size: 60px;
         font-family: FranklinGothicDemi;
         font-weight: 800;
         color: #ffffff;
         letter-spacing: 0.5px;
         margin-top: 0;
         padding-left: 0;
+        width: 80%;
+        line-height: 65px;
     }
 
     .holgraphic_text_content p {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 10px;
         padding-left: 0;
         font-family: opensans;
@@ -774,24 +782,26 @@ banner
 
     .beamboxx_holographic img {
         max-width: 100%;
-        width: 53%;
+        width: 50%;
         height: auto;
         margin-right: 190px;
         margin-top: 94px;
+        margin-bottom: 75px;
     }
 
     .icon_with_text {
         font-family: opensans;
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         margin-top: 170px;
         display: flex;
         align-items: center;
         line-height: 80px;
+        width: 50%;
     }
 
     .icon_with_text img {
-        width: 200px;
+        width: 170px;
         margin-right: 30px;
     }
 
@@ -832,10 +842,11 @@ banner
     }
 
     .touch_icon_with_text p {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 10px;
         padding-left: 0;
         font-family: opensans;
+        width: 90%;
     }
 
 
@@ -858,10 +869,11 @@ banner
     }
 
     .relocate_icon_with_text p {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 10px;
         padding-left: 0;
         font-family: opensans;
+        width: 90%;
     }
 
     .plug_play_icon_with_text {
@@ -883,10 +895,11 @@ banner
     }
 
     .plug_play_icon_with_text p {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 10px;
         padding-left: 0;
         font-family: opensans;
+        width: 90%;
     }
 
     .touch_paragraph {
@@ -911,7 +924,7 @@ banner
     .icon_and_text {
         width: 0%;
         font-family: opensans;
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         margin-top: 230px;
         display: flex;
@@ -920,13 +933,13 @@ banner
     }
 
     .icon_and_text img {
-        width: 138px;
+        width: 110px;
         margin-right: 30px;
     }
 
     .relocate_icon_and_text {
         width: inherit;
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         margin-top: 230px;
         display: flex;
@@ -936,12 +949,13 @@ banner
     }
 
     .relocate_icon_and_text img {
-        width: 138px;
+        width: 100px;
         margin-right: 30px;
     }
 
     .plug_play_icon_and_text {
-        font-size: 80px;
+        width: 60%;
+        font-size: 60px;
         font-weight: bold;
         margin-top: 230px;
         display: flex;
@@ -986,7 +1000,7 @@ banner
     }
 
     .sensor_text_content p {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 10px;
         padding-left: 0;
         font-family: opensans;
@@ -1010,7 +1024,7 @@ banner
     }
 
     .sturdy_build_text_content p {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 10px;
         padding-left: 0;
         font-family: opensans;
@@ -1035,8 +1049,8 @@ banner
     }
 
     .sensor_icon_with_text {
-        width: 88%;
-        font-size: 80px;
+        width: 72%;
+        font-size: 60px;
         font-weight: bold;
         margin-top: 170px;
         display: flex;
@@ -1046,13 +1060,13 @@ banner
     }
 
     .sensor_icon_with_text img {
-        width: 200px;
+        width: 130px;
         margin-right: 30px;
     }
 
     .sturdy_build_icon_with_text {
         width: inherit;
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         margin-top: 170px;
         display: flex;
@@ -1062,7 +1076,7 @@ banner
     }
 
     .sturdy_build_icon_with_text img {
-        width: 120px;
+        width: 105px;
         margin-right: 30px;
     }
 
@@ -1205,7 +1219,7 @@ banner
 
     .sectionfooter {
         padding-top: 55px;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 
     #contact-us .contact-form #contact {
@@ -1506,8 +1520,15 @@ banner
         padding-right: 2%;
     }
 
+    .holoporting_pages {
+        padding-top: 0px;
+    }
+
     .holoporting_pages p {
         padding-left: 0px;
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 0px;
     }
 
     .holoporting_pages h2 {
@@ -1630,6 +1651,7 @@ banner
         font-size: 22px;
         margin-top: 10px;
         padding-left: 0;
+        width: 100%;
     }
 
     .relocate_icon_with_text {
@@ -1653,6 +1675,7 @@ banner
         font-size: 22px;
         margin-top: 10px;
         padding-left: 0;
+        width: 100%;
     }
 
     .plug_play_icon_with_text {
@@ -1676,6 +1699,7 @@ banner
         font-size: 22px;
         margin-top: 10px;
         padding-left: 0;
+        width: 100%;
     }
 
     .touch_paragraph {
@@ -1806,6 +1830,7 @@ banner
         margin-bottom: 20px;
         margin-left: 0px;
         margin-right: auto;
+        width: 100%;
     }
 
     .sensor_icon_with_text img {
@@ -1936,6 +1961,13 @@ banner
     .holoporting_pages p {
         font-size: 22px;
         padding-left: 10px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .holoporting_pages {
+        padding-top: 0px;
     }
 
 
@@ -1968,6 +2000,8 @@ banner
         font-size: 42px;
         order: 1;
         text-align: left;
+        line-height: normal;
+        width: auto;
     }
 
     .holgraphic_text_content p {
@@ -2010,6 +2044,7 @@ banner
         margin-top: 20px;
         color: white;
         text-align: left;
+        margin-bottom: 75px;
     }
 
     .holgraphic_main_class {
@@ -2391,6 +2426,12 @@ banner
         font-size: 14px;
     }
 
+    #scrollButton {
+        font-size: 12px;
+        bottom: 12px;
+        padding: 8px 7px;
+        right: 30px;
+    }
 }
 
 
@@ -2577,7 +2618,7 @@ banner
     }
 
     .icon_and_text {
-        font-size: 37px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 72px;
         display: flex;
@@ -2592,7 +2633,7 @@ banner
     }
 
     .relocate_icon_and_text {
-        font-size: 37px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 72px;
         display: flex;
@@ -2607,13 +2648,14 @@ banner
     }
 
     .plug_play_icon_and_text {
-        font-size: 37px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 72px;
         display: flex;
         align-items: center;
         line-height: 40px;
         order: 1;
+        width: auto;
     }
 
     .plug_play_icon_and_text img {
@@ -2634,7 +2676,7 @@ banner
     }
 
     .sensor_text_content p {
-        font-size: 20px;
+        font-size: 18px;
 
     }
 
@@ -2676,7 +2718,7 @@ banner
     }
 
     .sturdy_build_icon_with_text img {
-        width: 100px;
+        width: 70px;
         margin-right: 10px;
     }
 
@@ -2917,7 +2959,7 @@ banner
     }
 
     .sturdy_build_icon_with_text img {
-        width: 100px;
+        width: 60px;
         margin-right: 10px;
     }
 
