@@ -577,7 +577,7 @@ banner
 
 
 .holographic_bg_image {
-    background-image: url("https://beamboxx.in/assets/images/4k-BG.jpg");
+    background-image: url("../images/4k-BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -585,7 +585,7 @@ banner
 }
 
 .touch_interactive_bg_image {
-    background-image: url("https://beamboxx.in/assets/images/Img_3.jpg");
+    background-image: url("../images/Imgg_3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -593,7 +593,7 @@ banner
 }
 
 .motion_sensor_bg_image {
-    background-image: url("	https://beamboxx.in/assets/images/Img_1.jpg");
+    background-image: url("../images/Img_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -603,7 +603,7 @@ banner
 }
 
 .easy_to_relocate_bg_image {
-    background-image: url("	https://beamboxx.in/assets/images/easy-to-relocate.jpg");
+    background-image: url("../images/easy-to-relocate.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -611,7 +611,7 @@ banner
 }
 
 .sturdy_build_bg_image {
-    background-image: url("https://beamboxx.in/assets/images/Sturdy.jpg");
+    background-image: url("../images/Sturdy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -619,7 +619,7 @@ banner
 }
 
 .plug_and_play_bg_image {
-    background-image: url("https://beamboxx.in/assets/images/plugplay.jpg");
+    background-image: url("../images/plugplay.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1050,7 +1050,7 @@ banner
     }
 
     .sensor_icon_with_text {
-        width: 72%;
+        width: 68%;
         font-size: 60px;
         font-weight: bold;
         margin-top: 170px;
@@ -1437,21 +1437,31 @@ banner
 
     }
 
+    .holoporting_pages h2 {
+        padding-left: 70px;
+    }
+
+    .holoporting_pages p {
+        width: 90%;
+        margin-left: 70px;
+    }
+
     .header-area .main-nav .logo {
         padding-left: 30px;
     }
 
     .holgraphic_text_content h2 {
-        font-size: 60px;
+        font-size: 46px;
+        line-height: 55px;
     }
 
     .icon_with_text img {
-        width: 150px;
+        width: 135px;
     }
 
     .icon_with_text {
-        font-size: 60px;
-        line-height: 65px;
+        font-size: 46px;
+        line-height: 59px;
     }
 
     .holgraphic_text_content p {
@@ -1463,40 +1473,46 @@ banner
     }
 
     .icon_and_text {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 46px;
+        line-height: 59px;
     }
 
     .sensor_icon_with_text img {
-        width: 131px;
+        width: 93px;
         margin-right: 20px;
     }
 
     .sensor_icon_with_text {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 46px;
+        line-height: 59px;
     }
 
     .relocate_icon_and_text img {
-        width: 100px;
+        width: 85px;
     }
 
     .relocate_icon_and_text {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 46px;
+        line-height: 59px;
     }
 
     .sturdy_build_icon_with_text img {
-        width: 100px;
+        width: 85px;
     }
 
     .sturdy_build_icon_with_text {
-        font-size: 60px;
+        font-size: 46px;
+        line-height: 60px;
     }
 
     .plug_play_icon_and_text {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 46px;
+        line-height: 59px;
+    }
+
+    .plug_play_icon_and_text img {
+        width: 100px;
+        margin-right: 20px;
     }
 
     .image-container3 {
@@ -1567,6 +1583,7 @@ banner
         margin-left: 0px;
         margin-right: auto;
         text-align: left;
+        width: auto;
     }
 
     .holgraphic_text_content p {
@@ -1585,10 +1602,11 @@ banner
         margin-bottom: 20px;
         margin-left: 0px;
         margin-right: auto;
+        width: auto;
     }
 
     .icon_with_text img {
-        width: 60px;
+        width: 70px;
         margin-right: 10px;
     }
 
@@ -2387,6 +2405,7 @@ banner
 
     .sectionfooter {
         padding-top: 60px;
+        padding-bottom: 30px;
     }
 
     .contact-form h1 {
@@ -2741,6 +2760,7 @@ banner
         width: 100%;
         max-width: 400px;
         margin: 0 auto;
+        margin-top: 150px;
     }
 
     .sensor_paragraph1 {
