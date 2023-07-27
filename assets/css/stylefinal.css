@@ -726,7 +726,7 @@ banner
         color: white;
         width: 30%;
         padding-left: 108px;
-        padding-bottom: 100px;
+        padding-bottom: 85px;
 
     }
 
@@ -1053,7 +1053,7 @@ banner
         width: 69%;
         font-size: 60px;
         font-weight: bold;
-        margin-top: 170px;
+        margin-top: 280px;
         display: flex;
         align-items: center;
         line-height: 80px;
@@ -1069,7 +1069,7 @@ banner
         width: inherit;
         font-size: 60px;
         font-weight: bold;
-        margin-top: 170px;
+        margin-top: 280px;
         display: flex;
         align-items: center;
         line-height: 80px;
@@ -1107,6 +1107,7 @@ banner
         color: #000000;
         width: 93%;
         margin: 10px 0;
+        padding-bottom: 50px;
     }
 
     .image-container {
@@ -1354,7 +1355,7 @@ banner
     }
 
     #contact-us {
-        margin-top: 140px;
+        margin-top: 100px;
         background-color: #333333;
     }
 
@@ -1918,6 +1919,7 @@ banner
         font-size: 22px;
         line-height: 42px;
         width: 82%;
+        padding-bottom: 50px;
 
     }
 
@@ -2381,6 +2383,7 @@ banner
         font-size: 14px;
         line-height: 25px;
         width: 95%;
+        padding-bottom: 0px;
     }
 
     .image-container1 {
