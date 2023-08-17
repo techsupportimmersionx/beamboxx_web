@@ -1,1 +1,14 @@
-ErrorDocument 404 https://beamboxx.in/404.html/
+RewriteEngine On
+
+# Redirect example.com/page to example.com/page.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+# Redirect example.com/page.html to example.com/page
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Redirect to custom 404 page
+ErrorDocument 404 /404.html
