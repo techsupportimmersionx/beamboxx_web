@@ -7,3 +7,5 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 #301 from example.com/page.html to example.com/page
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 Redirect 301 /business.html/ https://beamboxx.in/live-hologram-teleportation/
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /404.html [L]
