@@ -574,6 +574,9 @@ banner
     height: 100%;
 }
 
+.main-banner .mobile {
+    display: none;
+}
 
 
 .holographic_bg_image {
@@ -2535,6 +2538,13 @@ banner
     .collapsible-link::before {
         right: -0.4rem;
     } */
+    .main-banner .desktop {
+        display: none;
+    }
+    .main-banner .mobile {
+        display: block;
+    }
+    
 }
 
 
