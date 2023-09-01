@@ -2069,12 +2069,15 @@ banner
     }
     .container.bg_image_container .mobile {
         display: block;
+        height: 100vh;
+}
     }
 
     .container.bg_image_container .start_beaming_text {
         font-size: 30px;
         padding-left: 14px;
-        padding-bottom: 0px;
+        /* padding-bottom: 0px; */
+        padding-bottom: 25px;
     }
 
     .holgraphic_text_content {
