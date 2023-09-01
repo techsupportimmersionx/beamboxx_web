@@ -753,6 +753,9 @@ banner
         margin: 0;
         padding: 0;
     }
+    .container.bg_image_container .mobile {
+        display: none;
+    }
 
     .container.bg_image_container img {
         width: 100%;
@@ -2059,6 +2062,13 @@ banner
 
     .more {
         margin-top: -8%;
+    }
+
+    .container.bg_image_container .desktop {
+        display: none;
+    }
+    .container.bg_image_container .mobile {
+        display: block;
     }
 
     .container.bg_image_container .start_beaming_text {
