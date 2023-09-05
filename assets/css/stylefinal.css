@@ -1596,6 +1596,88 @@ banner
 
 }
 
+@media (max-width: 1280px) {
+    .container.bg_image_container .start_beaming_text {
+font-size: 50px;
+    }
+
+    .holgraphic_text_content h2 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .icon_with_text img {
+        width: 100px;
+    }
+
+    .icon_with_text {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .icon_with_text {
+        margin-top: 100px;
+    }
+
+    .holgraphic_text_content p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .beamboxx_holographic img {
+        width: 45%;
+        margin-right: 140px;
+        margin-top: 184px;
+    }
+
+    .touch_icon_with_text p {
+        font-size: 18px;
+    }
+
+    .sensor_text_content p {
+        font-size: 18px;
+    }
+
+    .sensor_icon_with_text {
+        width: 85%;
+    }
+
+    .sensor_text_content p {
+        font-size: 18px;
+    }
+
+    .relocate_icon_with_text p {
+        font-size: 18px;
+    }
+
+    .sturdy_build_text_content p {
+        font-size: 18px;
+    }
+
+    .plug_play_icon_and_text {
+        width: 73%;
+    }
+
+    .plug_play_icon_with_text p {
+        font-size: 18px;
+    }
+
+    .rowwidth h1 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: 50px;
+    }
+
+    .rowwidth p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .beamlogo {
+        width: 120px;
+    }
+}
+
 @media (max-width: 950px) {
     .holoporting_pages_second_image {
         padding-bottom: 50px;
@@ -2274,6 +2356,7 @@ banner
     .beambox_main_image .desktop {
         display: none;
     }
+
     .beambox_main_image .mobile {
         display: block;
     }
@@ -2620,9 +2703,11 @@ banner
 
     .beamboxx_holographic {
         text-align: center;
-        order: 4;
+        /* order: 4; */
+        order: 5;
         margin-left: 10px;
         margin-right: 10px;
+        padding-bottom: 51px;
     }
 
     .beamboxx_holographic img {
@@ -2633,7 +2718,8 @@ banner
 
     .holo-para {
         font-size: 18px;
-        order: 5;
+        /* order: 5; */
+        order: 4;
         margin-top: 20px;
         color: white;
 
