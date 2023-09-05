@@ -975,6 +975,10 @@ banner
         margin-top: 168px;
     }
 
+    .beambox_main_image .mobile {
+        display: none;
+    }
+
     .icon_and_text {
         width: 0%;
         font-family: opensans;
@@ -1336,8 +1340,8 @@ banner
         font-size: 16px;
         font-family: opensans;
         padding: 8px 25px;
-        background-color: #1c1a1a;
-        color: #fff;
+        background-color: #c33030 !important;
+        color: #ffffff !important;
         text-align: center;
         font-weight: 400;
         text-transform: uppercase;
@@ -1475,7 +1479,8 @@ banner
     }
 
     .btn-default:hover {
-        background-color: #f8c006 !important;
+        /* background-color: #f8c006 !important; */
+        background-color: #f80606 !important;
         border-color: #ffffff !important;
         color: #ffffff !important;
     }
@@ -2266,6 +2271,14 @@ banner
         /* Removed margin-top property */
     }
 
+    .beambox_main_image .desktop {
+        display: none;
+    }
+    .beambox_main_image .mobile {
+        display: block;
+    }
+
+
     .icon_and_text {
         font-size: 37px;
         font-weight: bold;
@@ -2541,10 +2554,11 @@ banner
     .main-banner .desktop {
         display: none;
     }
+
     .main-banner .mobile {
         display: block;
     }
-    
+
 }
 
 
