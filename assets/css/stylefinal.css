@@ -1485,6 +1485,11 @@ banner
         color: #ffffff !important;
     }
 
+    .privacy{
+        margin-top: 50px;
+        padding: 73px;
+    }
+
 }
 
 @media (max-width: 1440px) {
