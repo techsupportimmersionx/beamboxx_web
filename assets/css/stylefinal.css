@@ -1408,7 +1408,8 @@ banner
         justify-content: center;
         /* margin-left: 42px; */
         font-family: InterGothicbook;
-        padding-right: 50px;
+        /* padding-right: 50px; */
+        padding-right: 35px;
     }
 
     #contact-us {
