@@ -3119,7 +3119,31 @@ banner
     }
 
 }
+@media (max-width: 375px) {
+    .Next_Icon {
+        margin-left: 6%;
+    }
 
+    .Next_Icon2 {
+        margin-left: 66%;
+    }
+
+    .Next_Icon3 {
+        margin-left: 0%;
+    }
+
+    .Next_Icon4 {
+        margin-left: 17%;
+    }
+
+    .Next_Icon5 {
+        margin-left: 7%;
+    }
+
+    .Next_Icon6 {
+        margin-left: 40%;
+    }
+}
 @media (max-width: 320px) {
     .holgraphic_text_content {
         width: 100%;
@@ -3334,18 +3358,23 @@ banner
     .Next_Icon {
         margin-left: 6%;
     }
+
     .Next_Icon2 {
         margin-left: 58%;
     }
+
     .Next_Icon3 {
         margin-left: 48%;
     }
+
     .Next_Icon4 {
         margin-left: 86%;
     }
+
     .Next_Icon5 {
         margin-left: 51%;
     }
+
     .Next_Icon6 {
         margin-left: 26%;
     }
