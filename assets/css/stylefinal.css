@@ -3125,23 +3125,23 @@ banner
     }
 
     .Next_Icon2 {
-        margin-left: 66%;
+        margin-left: 3%;
     }
 
     .Next_Icon3 {
-        margin-left: 0%;
+        margin-left: 19%;
     }
 
     .Next_Icon4 {
-        margin-left: 17%;
+        margin-left: 18%;
     }
 
     .Next_Icon5 {
-        margin-left: 7%;
+        margin-left: 19%;
     }
 
     .Next_Icon6 {
-        margin-left: 40%;
+        margin-left: 9%;
     }
 }
 @media (max-width: 320px) {
@@ -3355,7 +3355,7 @@ banner
         padding-top: 0px;
     }
 
-    .Next_Icon {
+    /* .Next_Icon {
         margin-left: 6%;
     }
 
@@ -3377,5 +3377,5 @@ banner
 
     .Next_Icon6 {
         margin-left: 26%;
-    }
+    } */
 }
