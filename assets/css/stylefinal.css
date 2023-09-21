@@ -1486,34 +1486,40 @@ banner
         color: #ffffff !important;
     }
 
-    .privacy{
+    .privacy {
         margin-top: 50px;
         padding: 73px;
     }
-.Next_Icon{
-    width: 57px !important;
-    margin-left: 51% ;
-}
-.Next_Icon2{
-    width: 57px !important;
-    margin-left: 27%;
-}
-.Next_Icon3{
-    width: 57px !important;
-    margin-left: 36%;
-}
-.Next_Icon4{
-    width: 57px !important;
-    margin-left: 46%;
-}
-.Next_Icon5{
-    width: 57px !important;
-    margin-left: 40%;
-}
-.Next_Icon6{
-    width: 57px !important;
-    margin-left: 61%;
-}
+
+    .Next_Icon {
+        width: 57px !important;
+        margin-left: 51%;
+    }
+
+    .Next_Icon2 {
+        width: 57px !important;
+        margin-left: 27%;
+    }
+
+    .Next_Icon3 {
+        width: 57px !important;
+        margin-left: 36%;
+    }
+
+    .Next_Icon4 {
+        width: 57px !important;
+        margin-left: 46%;
+    }
+
+    .Next_Icon5 {
+        width: 57px !important;
+        margin-left: 40%;
+    }
+
+    .Next_Icon6 {
+        width: 57px !important;
+        margin-left: 61%;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -1622,29 +1628,34 @@ banner
         padding: 8px 10px;
         right: 25px;
     }
+
     .Next_Icon {
         width: 38px !important;
         margin-left: 34%;
     }
 
-    .Next_Icon2{
-         width: 38px !important;
+    .Next_Icon2 {
+        width: 38px !important;
         margin-left: 0%;
     }
-    .Next_Icon3{
-         width: 38px !important;
+
+    .Next_Icon3 {
+        width: 38px !important;
         margin-left: 13%;
     }
-    .Next_Icon4{
-      width: 38px !important;
+
+    .Next_Icon4 {
+        width: 38px !important;
         margin-left: 28%;
     }
-    .Next_Icon5{
-      width: 38px !important;
+
+    .Next_Icon5 {
+        width: 38px !important;
         margin-left: 19%;
     }
-    .Next_Icon6{
-      width: 38px !important;
+
+    .Next_Icon6 {
+        width: 38px !important;
         margin-left: 48%;
     }
 
@@ -1652,7 +1663,7 @@ banner
 
 @media (max-width: 1280px) {
     .container.bg_image_container .start_beaming_text {
-font-size: 50px;
+        font-size: 50px;
     }
 
     .holgraphic_text_content h2 {
@@ -1730,23 +1741,28 @@ font-size: 50px;
     .beamlogo {
         width: 120px;
     }
+
     .Next_Icon {
         margin-left: 46%;
     }
 
-    .Next_Icon2{
+    .Next_Icon2 {
         margin-left: 19%;
     }
-    .Next_Icon3{
+
+    .Next_Icon3 {
         margin-left: 29%;
     }
-    .Next_Icon4{
+
+    .Next_Icon4 {
         margin-left: 41%;
     }
-    .Next_Icon5{
-        margin-left:33%;
+
+    .Next_Icon5 {
+        margin-left: 33%;
     }
-    .Next_Icon6{
+
+    .Next_Icon6 {
         margin-left: 57%;
     }
 }
@@ -3070,32 +3086,37 @@ font-size: 50px;
     .footerlinks {
         padding-top: 0px;
     }
+
     .Next_Icon {
         width: 25px !important;
         margin-left: 31%;
     }
 
-    
-    .Next_Icon2{
-       width: 25px !important;
-       margin-left: 0%;
-   }
-   .Next_Icon3{
-       width: 25px !important;
-       margin-left: 13%;
-   }
-   .Next_Icon4{
-    width: 25px !important;
-       margin-left: 28%;
-   }
-   .Next_Icon5{
-    width: 25px !important;
-       margin-left: 19%;
-   }
-   .Next_Icon6{
-    width: 25px !important;
-       margin-left: 48%;
-   }
+
+    .Next_Icon2 {
+        width: 25px !important;
+        margin-left: 0%;
+    }
+
+    .Next_Icon3 {
+        width: 25px !important;
+        margin-left: 13%;
+    }
+
+    .Next_Icon4 {
+        width: 25px !important;
+        margin-left: 28%;
+    }
+
+    .Next_Icon5 {
+        width: 25px !important;
+        margin-left: 19%;
+    }
+
+    .Next_Icon6 {
+        width: 25px !important;
+        margin-left: 48%;
+    }
 
 }
 
@@ -3308,5 +3329,24 @@ font-size: 50px;
 
     .footerlinks {
         padding-top: 0px;
+    }
+
+    .Next_Icon {
+        margin-left: 6%;
+    }
+    .Next_Icon2 {
+        margin-left: 58%;
+    }
+    .Next_Icon3 {
+        margin-left: 48%;
+    }
+    .Next_Icon4 {
+        margin-left: 86%;
+    }
+    .Next_Icon5 {
+        margin-left: 51%;
+    }
+    .Next_Icon6 {
+        margin-left: 26%;
     }
 }
