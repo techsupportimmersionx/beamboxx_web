@@ -367,9 +367,19 @@ max-width: 100%;
     color: #ed563b;
 }
 
+#carousel1 {
+    width:100%!important;
+    height:925px!important;
+    overflow:scroll;
+}
 
-
-
+@media (max-width: 1400px) {
+#carousel1 {
+    width:100%!important;
+    height:700px!important;
+    overflow:scroll;
+}
+}
 @media (max-width: 1200px) {
     .header-area .main-nav .nav li {
         padding-left: 12px;
@@ -379,9 +389,19 @@ max-width: 100%;
     .header-area .main-nav:before {
         display: none;
     }
+    #carousel1 {
+    width:100%!important;
+    height:600px!important;
+    overflow:scroll;
+}
 }
 
 @media (max-width: 767px) {
+    #carousel1 img{
+    width:767px!important;
+    height:450px!important;
+    overflow:scroll;
+}
     .header-area .main-nav .logo {
         color: #1e1e1e;
     }
@@ -1662,6 +1682,11 @@ banner
 }
 
 @media (max-width: 1280px) {
+    #carousel1 {
+    width:100%!important;
+    height:700px!important;
+    overflow:scroll;
+}
     .container.bg_image_container .start_beaming_text {
         font-size: 50px;
     }
@@ -1768,6 +1793,11 @@ banner
 }
 
 @media (max-width: 950px) {
+    #carousel1 {
+    width:100%!important;
+    height:500px!important;
+    overflow:scroll;
+}
     .holoporting_pages_second_image {
         padding-bottom: 50px;
         padding-left: 2%;
@@ -2206,6 +2236,11 @@ banner
 
 
 @media (max-width: 576px) {
+    #carousel1 {
+    width:100%!important;
+    height:300px!important;
+    overflow:scroll;
+}
     .accord h6 {
         font-size: 16px;
     }
@@ -2735,6 +2770,11 @@ banner
 
 
 @media (max-width: 425px) {
+    #carousel1 {
+    width:425px!important;
+    height:350px!important;
+    overflow:scroll;
+}
     .holoporting_pages_second_image {
         padding-left: 5%;
         padding-right: 5%;
@@ -3120,6 +3160,11 @@ banner
 
 }
 @media (max-width: 375px) {
+    #carousel1 img{
+    width:375px!important;
+    height:350px!important;
+    overflow:scroll;
+}
     .Next_Icon {
         margin-left: 6%;
     }
@@ -3145,6 +3190,11 @@ banner
     }
 }
 @media (max-width: 320px) {
+    #carousel1 img{
+    width:320px!important;
+    height:300px!important;
+    overflow:scroll;
+}
     .holgraphic_text_content {
         width: 100%;
         justify-content: flex-start;

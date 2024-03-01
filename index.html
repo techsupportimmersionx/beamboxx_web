@@ -326,11 +326,31 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    <div class="container bg_image_container">
-        <img class="desktop" src="assets/images/Top Image.jpg" alt="Hologram">
+  
+        <!-- <img class="desktop" src="assets/images/Top Image.jpg" alt="Hologram">
         <img class="mobile" src="assets/images/Top-Image_mobile_new.jpg" alt="Hologram">
-        <h2 class="start_beaming_text">START BEAMING!</h2>
-    </div>
+        <h2 class="start_beaming_text">START BEAMING!</h2> -->
+        <div id="carousel1">
+    <ul>
+        <li>
+        <img alt="" src="assets/images/beamboxx.jpg" /><!-- <p>This carousel 
+        has padding applied to it so you can see hints for the previous and 
+        next images.</p> -->
+        </li>
+        <li>
+
+        <img alt="" src="assets/images/002.jpg" /><!-- <p>Many of the images used in the demos come from
+        <a href="#">Mike Swanson's excellent wallpaper images</a> page.</p> -->
+        </li>
+        <!-- <li>
+        <img alt="" src="img-13.jpg" width="400" height="250" /></li>
+        <li>
+        <img alt="" src="img-14.jpg" width="400" height="250" /><p>The images to the left and right of this one have no caption.</p>
+
+        </li> -->
+    </ul>
+</div>
+    
 
 
     <div class="container holographic_bg_image " id="features">
@@ -857,9 +877,12 @@
 
         window.addEventListener("scroll", elementInViewport1);
     </script>
-
-
-
+<script type="text/javascript" src="jquery.infinitecarousel.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#carousel1').infiniteCarousel();
+});
+</script>
     <script>
         $(document).ready(function () {
             $('#scrollButton').click(function () {
