@@ -397,6 +397,11 @@ max-width: 100%;
 }
 
 @media (max-width: 767px) {
+       #carousel1{
+    width:767px!important;
+    height:450px!important;
+    overflow:scroll;
+}
     #carousel1 img{
     width:767px!important;
     height:450px!important;
@@ -1794,7 +1799,13 @@ banner
 
 @media (max-width: 950px) {
     #carousel1 {
-    width:100%!important;
+    width:950px!important;
+    height:500px!important;
+    overflow:scroll;
+}
+
+   #carousel1 img{
+    width:950px!important;
     height:500px!important;
     overflow:scroll;
 }
@@ -2236,9 +2247,14 @@ banner
 
 
 @media (max-width: 576px) {
-    #carousel1 {
-    width:100%!important;
-    height:300px!important;
+        #carousel1{
+    width:576px!important;
+    height:400px!important;
+    overflow:scroll;
+}
+    #carousel1 img {
+    width:576px!important;
+    height:400px!important;
     overflow:scroll;
 }
     .accord h6 {
@@ -2775,6 +2791,12 @@ banner
     height:350px!important;
     overflow:scroll;
 }
+
+    #carousel1 img {
+    width:425px!important;
+    height:350px!important;
+    overflow:scroll;
+}
     .holoporting_pages_second_image {
         padding-left: 5%;
         padding-right: 5%;
@@ -3160,7 +3182,13 @@ banner
 
 }
 @media (max-width: 375px) {
-    #carousel1 img{
+    #carousel1{
+    width:360px!important;
+    height:350px!important;
+    overflow:scroll;
+}
+
+#carousel1 img{
     width:375px!important;
     height:350px!important;
     overflow:scroll;
@@ -3190,6 +3218,11 @@ banner
     }
 }
 @media (max-width: 320px) {
+    #carousel1{
+    width:320px!important;
+    height:300px!important;
+    overflow:scroll;
+}
     #carousel1 img{
     width:320px!important;
     height:300px!important;
